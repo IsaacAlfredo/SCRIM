@@ -1,16 +1,10 @@
+import { Header } from "../../components/Header";
 import { ProfileInfo } from "../../components/profileInfo";
 
 export function Profile() {
   return (
     <div className="Profile">
-      <header>
-        <h1>SCRIM</h1>
-        <nav>
-          <a href="">Buscar scrims</a>
-          <a href="">Meu time</a>
-          <a href="">Editar perfil</a>
-        </nav>
-      </header>
+      <Header />
       <ProfileInfo
         nick="Shiota"
         elo="Platina"

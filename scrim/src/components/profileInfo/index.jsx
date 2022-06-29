@@ -3,7 +3,7 @@ export function ProfileInfo(props) {
     <section className="ProfileInfo">
       <img src="" alt="Foto de perfil" />
       <strong>Nome de Usuário</strong>
-
+      <a href="">Editar Perfil</a>
       <table>
         <tbody>
           <tr>
