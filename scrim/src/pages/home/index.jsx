@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { Login } from "../../components/login";
 
 function Home() {
@@ -9,6 +10,7 @@ function Home() {
         <h2>O melhor lugar para encontrar sua próxima scrim</h2>
       </header>
       <Login />
+      <Link to="/profile">teste profile</Link>
     </div>
   );
 }

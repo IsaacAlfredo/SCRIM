@@ -1,3 +1,5 @@
+import { ProfileInfo } from "../../components/profileInfo";
+
 export function Profile() {
   <div className="Profile">
     <header>
@@ -8,5 +10,6 @@ export function Profile() {
         <a href="">Editar perfil</a>
       </nav>
     </header>
+    <ProfileInfo />
   </div>;
 }
