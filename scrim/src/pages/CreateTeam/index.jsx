@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Header } from "../../components/Header";
 
 export function CreateTeam() {
@@ -11,6 +12,7 @@ export function CreateTeam() {
           <input id="teamName" type="text" />
           <button>Criar</button>
         </form>
+        <Link to="/staff">Time teste</Link>
       </main>
     </div>
   );
