@@ -1,18 +1,18 @@
 import { Link } from "react-router-dom";
 import { Header } from "../../components/Header";
 
-export function TeamInfo(props) {
+export function TeamInfo() {
   return (
     <div className="TeamInfo">
       <Header />
       <main>
         <header>
-          <img src={props.teamLogo} alt={`Logo ${props.teamName}`} />
-          <h1>{props.teamName}</h1>
+          <img src="" alt="Logo time" />
+          <h1>Nome time</h1>
         </header>
         <nav>
-          <Link>Line Ups</Link>
-          <Link>Membros</Link>
+          <Link to="/lineup">Line Ups</Link>
+          <Link to="/staff">Membros</Link>
         </nav>
       </main>
     </div>

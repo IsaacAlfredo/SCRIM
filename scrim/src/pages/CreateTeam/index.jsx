@@ -12,7 +12,7 @@ export function CreateTeam() {
           <input id="teamName" type="text" />
           <button>Criar</button>
         </form>
-        <Link to="/staff">Time teste</Link>
+        <Link to="/teaminfo">Time teste</Link>
       </main>
     </div>
   );
