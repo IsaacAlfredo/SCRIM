@@ -1,5 +1,5 @@
 import { Header } from "../../../components/Header";
-import { MembersNav } from "../../../components/Members List/MembersNav";
+import { MembersNav } from "../../../components/MembersList/MembersNav";
 
 export function NewMember() {
   return (

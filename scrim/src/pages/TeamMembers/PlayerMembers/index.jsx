@@ -1,13 +1,12 @@
 import { Header } from "../../../components/Header";
-import { MemberCard } from "../../../components/Members List/MemberCard";
-import { MembersNav } from "../../../components/Members List/MembersNav";
+import { MemberCard } from "../../../components/MembersList/MemberCard";
+import { MembersNav } from "../../../components/MembersList/MembersNav";
 export function PlayerMembers() {
   return (
     <div className="PlayerMembers">
       <Header />
       <main>
         <MembersNav />
-
         <section>
           <h1>Jogadores</h1>
           <MemberCard
