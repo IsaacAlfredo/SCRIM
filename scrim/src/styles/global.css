@@ -1,5 +1,63 @@
+@font-face {
+  font-family: BeaufortForLol;
+  src: url("./fonts/BeaufortForLoL-TTF/BeaufortforLOL-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Spiegel;
+  src: url("./fonts/Spiegel-TTF/Spiegel_TT_Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Spiegel, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background-image: linear-gradient(#091428, #0a1428);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: BeaufortForLol, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+strong,
+small,
+p,
+a,
+table,
+img {
+  color: #f0e6d2;
+}
+button {
+  color: #0a1428;
+  border: none;
+  background-color: #c89b3c;
+  padding: 0.5vw;
+}
+
+input {
+  margin-left: 1vw;
 }
