@@ -11,29 +11,31 @@ export function ProfileInfo(props) {
         />
         <strong id="nickProfile">Nome de Usuário</strong>
       </div>
-      <table>
-        <tbody id="accInfo">
-          <tr className="accInfoRow">
-            <td>Conta Main:</td>
-            <td className="infoData">{props.nick}</td>
-          </tr>
-          <tr className="accInfoRow">
-            <td>Elo:</td>
-            <td className="infoData">{props.elo}</td>
-          </tr>
-          <tr className="accInfoRow">
-            <td>Op.gg:</td>
-            <td className="infoData">{props.opgg} </td>
-          </tr>
-          <tr className="accInfoRow">
-            <td>Smurfs:</td>
-            <td className="infoData">{props.smurfsNicks}</td>
-          </tr>
-        </tbody>
-      </table>
-      <a id="profileEdit" href="">
-        Editar Perfil
-      </a>
+      <div id="profileTableEdit">
+        <a id="profileEdit" className="defaultButton" href="">
+          Editar Perfil
+        </a>
+        <table>
+          <tbody id="accInfo">
+            <tr className="accInfoRow">
+              <td>Conta Main:</td>
+              <td className="infoData">{props.nick}</td>
+            </tr>
+            <tr className="accInfoRow">
+              <td>Elo:</td>
+              <td className="infoData">{props.elo}</td>
+            </tr>
+            <tr className="accInfoRow">
+              <td>Op.gg:</td>
+              <td className="infoData">{props.opgg} </td>
+            </tr>
+            <tr className="accInfoRow">
+              <td>Smurfs:</td>
+              <td className="infoData">{props.smurfsNicks}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </section>
   );
 }

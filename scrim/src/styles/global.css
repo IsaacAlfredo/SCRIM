@@ -9,14 +9,13 @@
   font-style: normal;
 }
 #root {
-  background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
   justify-content: center;
-}
-
-html {
   background-image: var(--background);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
 }
 
 h1,
@@ -43,11 +42,17 @@ img,
 label {
   color: var(--textColor);
 }
-button {
+.defaultButton {
   color: var(--buttonText);
   border: none;
   background-color: var(--highlight);
   padding: 0.5vw;
+  text-decoration: none;
+}
+
+.defaultButton:hover {
+  background-color: #785a28;
+  transition-duration: 300ms;
 }
 
 strong {

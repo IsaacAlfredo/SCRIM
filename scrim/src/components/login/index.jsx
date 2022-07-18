@@ -5,8 +5,8 @@ export function Login() {
       <input id="login" type="text" placeholder="Login" />
       <label htmlFor="password"></label>
       <input id="password" type="text" placeholder="Senha" />
-      <button>Login</button>
-      <button>Cadastro</button>
+      <button className="defaultButton">Login</button>
+      <button className="defaultButton">Cadastro</button>
     </form>
   );
 }
