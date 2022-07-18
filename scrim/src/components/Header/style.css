@@ -1,0 +1,37 @@
+.appHeader {
+  background-color: #010a13;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.headerTitle {
+  margin-left: 5vw;
+}
+
+.headerCard {
+  align-self: flex-end;
+  margin-right: 3vw;
+  border-bottom: 0.1vh solid #c8aa6e;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  width: 70vw;
+  border-bottom: 0.1vh solid #c8aa6e;
+  align-self: center;
+}
+
+.headerLink {
+  margin: 0 3vw;
+  padding-inline: 4vw;
+  color: #a09b8c;
+  text-decoration: none;
+}
+
+.headerLink:hover {
+  background-color: #1e282d85;
+  color: var(--textColor);
+  transition-duration: 500ms;
+}

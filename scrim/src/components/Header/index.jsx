@@ -1,16 +1,25 @@
 import { Link } from "react-router-dom";
+import "./style.css";
 
 export function Header() {
   return (
-    <header>
-      <h1>SCRIM</h1>
+    <header className="appHeader">
+      <h1 className="headerTitle">SCRIM</h1>
+      <div className="headerCard">
+        <strong>Nick</strong>
+        <img src="" alt="Foto de Perfil" />
+      </div>
       <nav>
-        <Link to="/profile">Perfil</Link>
-        <Link to="/createteam">Meu Time</Link>
-        <a href="">Buscar scrims</a>
+        <Link to="/profile" className="headerLink">
+          Perfil
+        </Link>
+        <Link to="/createteam" className="headerLink">
+          Meu Time
+        </Link>
+        <a href="" className="headerLink">
+          Buscar scrims
+        </a>
       </nav>
-      <strong>Nick</strong>
-      <img src="" alt="Foto de Perfil" />
     </header>
   );
 }
