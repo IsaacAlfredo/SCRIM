@@ -2,7 +2,7 @@ import "./style.css";
 
 export function ProfileInfo(props) {
   return (
-    <section className="ProfileInfo">
+    <main className="ProfileInfo">
       <div id="profileCard">
         <img
           id="profileImage"
@@ -36,6 +36,6 @@ export function ProfileInfo(props) {
           </tbody>
         </table>
       </div>
-    </section>
+    </main>
   );
 }

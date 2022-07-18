@@ -38,7 +38,7 @@
   transition-duration: 1000ms;
 }
 
-nav {
+#headerNav {
   display: flex;
   justify-content: space-between;
   width: 70vw;

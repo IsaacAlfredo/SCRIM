@@ -13,7 +13,7 @@ export function Header() {
           alt="Foto de Perfil"
         />
       </div>
-      <nav>
+      <nav id="headerNav">
         <Link to="/profile" className="headerLink">
           Perfil
         </Link>
