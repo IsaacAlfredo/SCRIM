@@ -5,9 +5,13 @@ export function Header() {
   return (
     <header className="appHeader">
       <h1 className="headerTitle">SCRIM</h1>
-      <div className="headerCard">
-        <strong>Nick</strong>
-        <img src="" alt="Foto de Perfil" />
+      <div id="headerCard">
+        <strong id="headerNick">Nick</strong>
+        <img
+          id="profileImageHeader"
+          src="https://i.pinimg.com/564x/73/9b/92/739b9257970851cb121f0f6b4dc7e5cb.jpg"
+          alt="Foto de Perfil"
+        />
       </div>
       <nav>
         <Link to="/profile" className="headerLink">

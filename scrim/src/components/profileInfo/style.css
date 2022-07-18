@@ -1,0 +1,50 @@
+.ProfileInfo {
+  margin-top: 20vh;
+
+  width: 70vw;
+  display: flex;
+  align-items: center;
+  margin-inline: auto;
+  justify-content: space-between;
+}
+
+#profileImage {
+  width: 10vw;
+  border-radius: 10vw;
+  margin-bottom: 3vh;
+}
+#profileImage:hover {
+  box-shadow: 0vw 0vw 1vw 0.5vw var(--highlight);
+  transition-duration: 300ms;
+}
+
+#profileCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#nickProfile {
+  font-size: 3vh;
+}
+
+#profileEdit {
+  align-self: flex-start;
+}
+
+#accInfo {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  height: 25vh;
+  justify-content: space-between;
+}
+
+.accInfoRow {
+  height: 5vh;
+  display: flex;
+  width: auto;
+  justify-content: space-between;
+  border-bottom: solid var(--highlight) 0.1vh;
+  align-items: flex-end;
+}

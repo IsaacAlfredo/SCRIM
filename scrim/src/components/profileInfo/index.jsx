@@ -1,29 +1,39 @@
+import "./style.css";
+
 export function ProfileInfo(props) {
   return (
     <section className="ProfileInfo">
-      <img src="" alt="Foto de perfil" />
-      <strong>Nome de Usuário</strong>
-      <a href="">Editar Perfil</a>
+      <div id="profileCard">
+        <img
+          id="profileImage"
+          src="https://i.pinimg.com/564x/73/9b/92/739b9257970851cb121f0f6b4dc7e5cb.jpg"
+          alt="Foto de perfil"
+        />
+        <strong id="nickProfile">Nome de Usuário</strong>
+      </div>
       <table>
-        <tbody>
-          <tr>
+        <tbody id="accInfo">
+          <tr className="accInfoRow">
             <td>Conta Main:</td>
-            <td>{props.nick}</td>
+            <td className="infoData">{props.nick}</td>
           </tr>
-          <tr>
+          <tr className="accInfoRow">
             <td>Elo:</td>
-            <td>{props.elo}</td>
+            <td className="infoData">{props.elo}</td>
           </tr>
-          <tr>
-            <td>Op.gg</td>
-            <td>{props.opgg} </td>
+          <tr className="accInfoRow">
+            <td>Op.gg:</td>
+            <td className="infoData">{props.opgg} </td>
           </tr>
-          <tr>
+          <tr className="accInfoRow">
             <td>Smurfs:</td>
-            <td>{props.smurfsNicks}</td>
+            <td className="infoData">{props.smurfsNicks}</td>
           </tr>
         </tbody>
       </table>
+      <a id="profileEdit" href="">
+        Editar Perfil
+      </a>
     </section>
   );
 }

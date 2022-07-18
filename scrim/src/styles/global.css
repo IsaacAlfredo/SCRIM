@@ -8,12 +8,15 @@
   font-weight: normal;
   font-style: normal;
 }
-body {
-  background-image: var(--background);
+#root {
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   justify-content: center;
+}
+
+html {
+  background-image: var(--background);
 }
 
 h1,
@@ -43,8 +46,12 @@ label {
 button {
   color: var(--buttonText);
   border: none;
-  background-color: var(--buttonBackground);
+  background-color: var(--highlight);
   padding: 0.5vw;
+}
+
+strong {
+  font-weight: 600;
 }
 
 input {
