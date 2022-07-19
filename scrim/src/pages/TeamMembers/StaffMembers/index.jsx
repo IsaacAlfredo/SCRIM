@@ -7,7 +7,7 @@ export function StaffMembers() {
       <Header />
       <main>
         <MembersNav />
-        <section>
+        <section className="memberSection">
           <h1>Staff</h1>
           <MemberCard memberName="joao" memberRole="coach" />
         </section>

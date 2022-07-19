@@ -7,7 +7,7 @@ export function NotAssignedMembers() {
       <Header />
       <main>
         <MembersNav />
-        <section>
+        <section className="memberSection">
           <h1>Membros não atribuidos</h1>
           <MemberCard memberName="joao" memberRole="Não Atribuido" />
         </section>

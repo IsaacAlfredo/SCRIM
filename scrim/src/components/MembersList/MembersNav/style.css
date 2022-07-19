@@ -1,0 +1,26 @@
+#MembersNav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 30vh;
+  margin-top: 5vh;
+}
+
+.membersNavLink {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 5vh;
+  width: 16vw;
+  border-bottom: 2px solid var(--highlight);
+}
+
+.membersNavLink:hover {
+  background-color: var(--highlight);
+  transition: 1000ms;
+  color: var(--buttonText);
+}
+
+#MNFirstLink {
+  margin-top: 15vh;
+}
