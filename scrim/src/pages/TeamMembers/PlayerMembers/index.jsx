@@ -1,11 +1,13 @@
 import { Header } from "../../../components/Header";
 import { MemberCard } from "../../../components/MembersList/MemberCard";
 import { MembersNav } from "../../../components/MembersList/MembersNav";
+import "../style.css";
+
 export function PlayerMembers() {
   return (
     <div className="PlayerMembers">
       <Header />
-      <main>
+      <main className="memberMain">
         <MembersNav />
         <section className="memberSection">
           <h1>Jogadores</h1>

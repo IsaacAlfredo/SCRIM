@@ -6,7 +6,7 @@ export function NewMember() {
   return (
     <div className="NewMember">
       <Header />
-      <main id="newMemberMain">
+      <main className="memberMain">
         <MembersNav />
         <section className="memberSection">
           <h1>Convide um novo membro </h1>
